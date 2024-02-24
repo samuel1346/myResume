@@ -1,0 +1,30 @@
+*{
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition-property: height, width, margin;
+    transition-duration: 500ms;
+}
+
+body{
+    transition: all 500ms;
+    color: rgb(56, 55, 55);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(185, 185, 185);
+}
+.changeTheme{
+    background-color: rgb(31, 30, 30);
+    color: rgb(179, 176, 176);
+}
+.changeTheme img{
+    box-shadow: .1em .1em .3em .2em rgba(170, 170, 170, 0.5);
+}
+
+img{
+    border-radius: 2%;
+    box-shadow: .2em .2em .2em .2em rgb(37, 37, 37, 0.5);
+}
