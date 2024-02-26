@@ -9,12 +9,11 @@ printPresentation.innerHTML =
             <img class="headPresentationImg" id="headPresentationImg" src="https://media.licdn.com/dms/image/D4D03AQG5ZKHj1ygxFw/profile-displayphoto-shrink_800_800/0/1708717242300?e=1714003200&v=beta&t=oEels292KULkY30rQsqmWUwQgnEA3AXHNEsocaqbnZg" alt="">
         </div>
         <div class="headPresentationInformation">  
-            <p>    Name: "Samuel Nicolas"</p>
-            <p>    Surname: "Silva"</p>
-            <p>    Age: "24 years"</p>
-            <p>    Passport: "AAF259541"</p>
-            <p>    Email: "samielnsilva@gmail.com"</p>
-            <p>    Linkedin: "https://www.linkedin.com/in/samuel-silva-17b6011b8/"
+            <p>    Name: Samuel Nicolas Silva</p>
+            <p>    Age: 24 </p>
+            <p>    Passport: AAF259541</p>
+            <p>    Email: <a href= "mailto:samielnsilva@gmail.com" target="_blank"> Enviar Mail</a> </p>
+            <p>    Linkedin: <a href="https://www.linkedin.com/in/samuel-silva-17b6011b8/" target="_blank">Samuel Silva</a>
         </div>  
     </div>
         <button class="themeButton" id= 'themeButton'>
