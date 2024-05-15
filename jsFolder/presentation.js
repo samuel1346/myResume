@@ -6,13 +6,14 @@ printPresentation.innerHTML =
 <div class="headPresentation">
     <div class="headSection" >
         <div>
-            <img class="headPresentationImg" id="headPresentationImg" src="https://media.licdn.com/dms/image/D4D03AQG5ZKHj1ygxFw/profile-displayphoto-shrink_800_800/0/1708717242300?e=1714003200&v=beta&t=oEels292KULkY30rQsqmWUwQgnEA3AXHNEsocaqbnZg" alt="">
+            <img class="headPresentationImg" id="headPresentationImg" src="https://media.licdn.com/dms/image/D4D03AQF5yayCViL25g/profile-displayphoto-shrink_800_800/0/1715457665471?e=1721260800&v=beta&t=8WWi1Ka3hJrmkhd7NVd_LRiAmeMolUzK7-Ku4RsVXbI" alt="">
         </div>
         <div class="headPresentationInformation">  
             <p>    Name: Samuel Nicolas Silva</p>
             <p>    Age: 24 </p>
             <p>    Passport: AAF259541</p>
-            <p>    Email: <a href= "mailto:samielnsilva@gmail.com" target="_blank"> Enviar Mail</a> </p>
+            <p>    DNI: 46899865 </p>
+            <p>    Email: <a href= "mailto:samielnsilva@gmail.com" target="_blank"> Send email</a> </p>
             <p>    Linkedin: <a href="https://www.linkedin.com/in/samuel-silva-17b6011b8/" target="_blank">Samuel Silva</a>
         </div>  
     </div>
@@ -35,18 +36,7 @@ const themeButton = document.getElementById('themeButton')
             }
         })
     }
-    
-    function showProfile(){
-        headPresentationImg.addEventListener("click", ()=>{
-            if(!headPresentationImg.classList[1]){
-                headPresentationImg.classList.add('showProfile')
-            }else if(headPresentationImg.classList[1]){
-                headPresentationImg.classList.remove('showProfile')
-            }
-        })
-    }
     changeTheme()
-    showProfile()
 
 
 

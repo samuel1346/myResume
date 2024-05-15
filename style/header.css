@@ -10,7 +10,7 @@
 .headSection{
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: column;
     margin-bottom: 1em;
 }
 .headPresentationInformation{
@@ -20,10 +20,10 @@
     padding: 0em 1em 0em 1em;
 }
 .headPresentationImg{
-    height: 10em;
-    width: 10em;
+    height: 13em;
+    width: 13em;
     object-fit: cover;
-    z-index: 100;
+    margin-bottom: 1em;
 }
 
 .themeButton{
@@ -35,9 +35,4 @@
     width: 2em;
     height: 2em;
     border-radius: 15%;
-}
-
-.showProfile{
-    width: 15em;
-    height: 15em;
 }

@@ -1,0 +1,15 @@
+.mainExperiences{
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.experienceDiv{
+    justify-content: center;
+    width: 85%;
+}
+
+.experienceDiv p:nth-child(odd){
+    margin-bottom: 1em;
+}

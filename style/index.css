@@ -6,7 +6,6 @@
     padding: 0;
     transition-property: height, width, margin;
     transition-duration: 500ms;
-    text-decoration: none;
 
 }
 a{
@@ -25,8 +24,8 @@ body{
     background-color: rgb(238, 238, 238);
 }
 .changeTheme{
-    background-color: rgb(31, 30, 30);
-    color: rgb(179, 176, 176);
+    background-color: rgb(34, 40, 49);
+    color: rgb(118, 171, 174);
 }
 .changeTheme img{
     box-shadow: .1em .1em .3em .2em rgba(170, 170, 170, 0.5);
